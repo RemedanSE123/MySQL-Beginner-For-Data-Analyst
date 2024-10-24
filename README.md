@@ -10,18 +10,15 @@ Here, you will find fundamental SQL queries and examples that cover the basics n
 
 ## Beginner SQL Commands
 
-| **SQL Command** | **Description** | **Example** |
-|-----------------|-----------------|-------------|
-| **SELECT**      | Retrieves data from one or more tables in the database. You can specify which columns to select or use `*` to select all columns. | `SELECT name, age FROM students;` |
-| **WHERE**       | Filters records that meet a specified condition. It helps you extract specific data by applying conditions to the columns. | `SELECT * FROM students WHERE age > 18;` |
-| **GROUP BY**    | Groups rows that have the same values in specified columns into aggregated data. It’s often used with aggregate functions like `SUM`, `COUNT`, `AVG`. | `SELECT department, COUNT(*) FROM employees GROUP BY department;` |
-| **ORDER BY**    | Sorts the results of a query in ascending (`ASC`) or descending (`DESC`) order based on one or more columns. | `SELECT * FROM students ORDER BY age DESC;` |
-| **HAVING**      | Filters records after an aggregation is performed. It is used with `GROUP BY` to specify conditions on the aggregated data. | `SELECT department, COUNT(*) FROM employees GROUP BY department HAVING COUNT(*) > 5;` |
-| **LIMIT**       | Limits the number of rows returned by a query, useful when you need a specific number of results. | `SELECT * FROM students LIMIT 10;` |
-| **ALIAS**       | Temporarily renames a table or column for the purpose of a particular query. Aliases make the results more readable or help in complex queries. | `SELECT name AS student_name, age AS student_age FROM students;` |
-
-### Descriptions for Beginner SQL Commands
-- **SELECT**: The `SELECT` statement is used to fetch data from a database...
+| **SQL Command** | **Description** |
+|-----------------|-----------------|
+| **SELECT**      | Retrieves data from one or more tables in the database. You can specify which columns to select or use `*` to select all columns. |
+| **WHERE**       | Filters records that meet a specified condition. It helps you extract specific data by applying conditions to the columns. |
+| **GROUP BY**    | Groups rows that have the same values in specified columns into aggregated data. It’s often used with aggregate functions like `SUM`, `COUNT`, `AVG`. |
+| **ORDER BY**    | Sorts the results of a query in ascending (`ASC`) or descending (`DESC`) order based on one or more columns. |
+| **HAVING**      | Filters records after an aggregation is performed. It is used with `GROUP BY` to specify conditions on the aggregated data. |
+| **LIMIT**       | Limits the number of rows returned by a query, useful when you need a specific number of results. |
+| **ALIAS**       | Temporarily renames a table or column for the purpose of a particular query. Aliases make the results more readable or help in complex queries. |
 
 
 
@@ -30,31 +27,6 @@ Here, you will find fundamental SQL queries and examples that cover the basics n
 ## Resources for Learning SQL
 
 Here are some great resources for practicing and mastering SQL for data analysis. These include books, blogs, YouTube tutorials, online courses, practice sites, and cheat sheets to help you on your SQL learning journey.
-
-
-
-### YouTube Channels & Videos
-- [SQL Full Course In 10 Hours 2023 | SQL Tutorial For Beginners | SQL For Beginners | Edureka](https://www.youtube.com/watch?v=7S_tz1z_5bA)
-- [SQL Tutorial For Beginners 2023 | SQL Full Course 2023 | SQL Tutorial 2023 | Simplilearn](https://www.youtube.com/watch?v=HXV3zeQKqGY)
-- [SQL Tutorial - Full Database Course for Beginners](https://www.youtube.com/watch?v=9Pzj7Aj25lw)
-- [Oracle Tutorial Introduction of Oracle SQL | Basics of a database for beginners](https://www.youtube.com/watch?v=9OLvskcGgWw)
-- [PostgreSQL Tutorial Full Course 2022](https://www.youtube.com/watch?v=qw--VYLpxG4)
-- [MySQL Full Course for Free 🗄️ (2023)](https://www.youtube.com/watch?v=7S_tz1z_5bA)
-
-
-
-
-### Tutorials
-- [SQLZoo Tutorial](https://sqlzoo.net/)
-- [SQL Bolt](https://sqlbolt.com/)
-- [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
-- [SQL Tutorial Website](https://www.sqltutorial.org/)
-- [freeCodeCamp SQL Tutorial](https://www.freecodecamp.org/)
-- [RIP SQL Tutorial](http://sql.learncodethehardway.org/)
-- [W3 Schools SQL Tutorial](https://www.w3schools.com/sql/)
-- [SQL Mode SQL Tutorial](https://sqlmode.com/)
-- [SQL Tutorial from tutorialspoint](https://www.tutorialspoint.com/sql/)
-- [SQL Tutorial from Bipp](https://bipp.io/blog/sql-tutorial)
 
 
 
