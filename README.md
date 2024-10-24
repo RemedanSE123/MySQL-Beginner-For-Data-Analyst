@@ -42,3 +42,66 @@ Here are some great resources for practicing and mastering SQL for data analysis
 ---
 
 These resources will help you build a strong foundation in SQL as a data analyst, providing both theory and practical exercises.
+
+
+
+# SQL Exercises for Data Analysts (Beginner Level)
+
+This repository contains **30 SQL exercises** based on the `employee_demographics` and `employee_salary` tables. These exercises cover key SQL concepts including **SELECT**, **WHERE**, **GROUP BY**, **ORDER BY**, **HAVING**, **LIMIT**, and **ALIAS**.
+
+## Exercises
+
+### 1. SELECT
+
+1. Retrieve all the employee first names and ages.
+2. Retrieve all the records from the employee_salary table.
+3. Select all distinct occupations from the employee_salary table.
+
+### 2. WHERE Clause
+
+4. Find all employees who are older than 40 years.
+5. Get the details of employees whose first name starts with 'A'.
+6. Select employees with a salary greater than 60,000.
+
+### 3. GROUP BY
+
+7. Find the number of employees in each department.
+8. Calculate the average salary in each department.
+9. List the total number of employees by occupation.
+
+### 4. ORDER BY
+
+10. Retrieve all employee records and order them by their last names alphabetically.
+11. Select all employees sorted by their salary in descending order.
+12. Get the employees’ names and order them by their age from youngest to oldest.
+
+### 5. HAVING
+
+13. Find departments with more than 2 employees.
+14. Show occupations where the average salary is above 50,000.
+15. Retrieve departments with a total salary sum greater than 120,000.
+
+### 6. LIMIT
+
+16. Select the first 5 employees based on age.
+17. Retrieve the top 3 highest-paid employees.
+18. Select any 10 employees from the employee_demographics table.
+
+### 7. ALIAS
+
+19. Select employee first names with the alias Employee Name.
+20. Get the employee salaries and rename the salary column to Income.
+21. Show the department count using an alias Dept Count.
+
+### 8. Complex Queries
+
+22. Retrieve the names of employees older than 30, sorted by their salary in descending order.
+23. Find the total salary of all employees in each department, but only for departments where the total salary exceeds 100,000.
+24. Display the first name, last name, and occupation of all employees with a salary above 55,000, sorted by occupation.
+25. Count the number of distinct departments.
+26. Find the highest salary in the employee_salary table.
+27. List employees along with their salaries where the salary is between 40,000 and 80,000.
+28. Retrieve employees and their departments for those who have the job title 'Manager'.
+29. Find the average age of employees in each department.
+30. Get the total salary for employees whose first name contains the letter 'a'.
+
